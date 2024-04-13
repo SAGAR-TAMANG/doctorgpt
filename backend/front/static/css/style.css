@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  background-attachment: fixed;
+}
+
+body {
+  background-image: url('../img/blue-red-background-with-white-cloud-middle.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-transparent {
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+}
+
+.text-special-1 {
+  font-size: 14vw;
+}
+
+.text-special-2 {
+  font-size: calc(1.375rem + 1.6vw);;
+}
+
+.text-special-3 {
+  font-size: calc(1.375rem + 3.5vw);
+}
+
+.ai-img-1 {
+  transform: translateY(-30%);
+}
+
+.card {
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+#about .container {
+  background-color: #18d7db;
+}
